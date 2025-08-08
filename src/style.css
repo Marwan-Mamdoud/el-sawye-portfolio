@@ -452,7 +452,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  height: 97dvh !important;
+  min-height: 97dvh !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
@@ -478,6 +478,7 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -555,7 +556,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  height: 96dvh !important;
+  min-height: 96dvh !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
